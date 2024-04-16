@@ -16,7 +16,7 @@ source:
 
 
 build:
-  number: 2
+  number: 3
   run_exports:
     # no info available.  Guessing at x.x.  Change if you know better.
     - {{ pin_subpackage('libedit', max_pin='x.x') }}
