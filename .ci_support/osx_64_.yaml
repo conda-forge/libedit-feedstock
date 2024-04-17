@@ -13,7 +13,7 @@ macos_machine:
 macos_min_version:
 - '10.9'
 ncurses:
-- '6.2'
+- '6.4'
 perl:
 - 5.26.2
 pin_run_as_build:
