@@ -1,14 +1,13 @@
 context:
-  name: libedit
   version: "3.1"
   date: 20250104
 
 package:
-  name: ${{ name|lower }}
+  name: libedit
   version: ${{ version }}.${{ date }}
 
 source:
-  url: http://thrysoee.dk/editline/${{ name }}-${{ date }}-${{ version }}.tar.gz
+  url: http://thrysoee.dk/editline/libedit-${{ date }}-${{ version }}.tar.gz
   sha256: 23792701694550a53720630cd1cd6167101b5773adddcb4104f7345b73a568ac
 
 build:
