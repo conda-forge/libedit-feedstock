@@ -12,7 +12,7 @@ source:
   sha256: 23792701694550a53720630cd1cd6167101b5773adddcb4104f7345b73a568ac
 
 build:
-  number: 0
+  number: 1
   skip: win
 
 requirements:
@@ -35,10 +35,9 @@ requirements:
 tests:
   - script:
       - if: unix
-        then: test -f $PREFIX/lib/libedit${SHLIB_EXT}
-      - if: unix
-        then: test ! -f $PREFIX/lib/libedit.a
-
+        then:
+          - test -f $PREFIX/lib/libedit${SHLIB_EXT}
+          - test ! -f $PREFIX/lib/libedit.a
 about:
   license: BSD-2-Clause
   license_file: COPYING
