@@ -1,6 +1,6 @@
 context:
   name: libedit
-  version: 3.1
+  version: "3.1"
   date: 20250104
 
 package:
