@@ -1,6 +1,6 @@
 context:
   version: "3.1"
-  date: 20250104
+  date: 20260512
 
 package:
   name: libedit
@@ -8,10 +8,10 @@ package:
 
 source:
   url: http://thrysoee.dk/editline/libedit-${{ date }}-${{ version }}.tar.gz
-  sha256: 23792701694550a53720630cd1cd6167101b5773adddcb4104f7345b73a568ac
+  sha256: 432d5e7ea8b0116dd39f2eca7bc11d0eed77faa6b77ea526ace89907c23ea4a0
 
 build:
-  number: 1
+  number: 0
   skip: win
 
 requirements:
